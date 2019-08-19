@@ -1,6 +1,6 @@
 ##                                           Image_processing-with-opencv
 
-## Module Instalation
+## Module Installation
 numpy
 scipy
 Pillow
@@ -13,3 +13,4 @@ opencv-python
 h5py
 imgaug
 IPython
+
