@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Aug 17 07:55:42 2019
-
+Indian institute of information technology kalyani W.B
 @author: praveen kumar
 """
 
@@ -124,6 +124,12 @@ mask = mask.astype(int)
 mask.shape
 
 
+for i in range(mask.shape[2]):
+    temp = skimage.io.imread('sample.jpg')
+    for j in range(temp.shape[2]):
+        temp[:,:,j] = temp[:,:,j] * mask[:,:,i]
+    plt.figure(figsize=(8,8))
+    plt.imshow(temp)
 
 
 
