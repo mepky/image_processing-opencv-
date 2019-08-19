@@ -1,6 +1,6 @@
 ##                                           Image_processing-with-opencv
 
-## Library
+## Module Instalation
 numpy
 scipy
 Pillow
