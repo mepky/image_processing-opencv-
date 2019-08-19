@@ -1,3 +1,15 @@
-## image_processing-with-opencv
+##                                           Image_processing-with-opencv
 
-## library
+## Library
+numpy
+scipy
+Pillow
+cython
+matplotlib
+scikit-image
+tensorflow>=1.3.0
+keras>=2.0.8
+opencv-python
+h5py
+imgaug
+IPython
